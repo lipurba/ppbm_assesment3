@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newproduct"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginEnd="15sp"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="sans-serif-black"
+            android:text="NEW PRODUCT"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/N_txt"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gambar1"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/produk"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-15dp"
+            android:backgroundTint="@color/cream"
+            android:text="PRODUK"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@id/N_txt"
+            />
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/cream"
+            android:layout_marginTop="150dp"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/N_crd_1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gambar7"
+                >
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SHELL OIL"
+                android:layout_marginTop="175sp"
+                android:layout_marginLeft="165sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/cream"
+            android:layout_below="@id/N_crd_1"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/N_crd_2"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/gambar8"
+                >
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DUCATI CLASSIC"
+                android:layout_marginTop="175sp"
+                android:layout_marginLeft="135sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/cream"
+            android:layout_below="@id/N_crd_2"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/N_crd_3"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/gambar9"
+                >
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DUCATI"
+                android:layout_marginTop="175sp"
+                android:layout_marginLeft="165sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/cream"
+            android:layout_below="@id/N_crd_3"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/N_crd_4"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/gambar10"
+                >
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEW EXHAUST"
+                android:layout_marginTop="175sp"
+                android:layout_marginLeft="140sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back2"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/cream"
+            android:text="BACK"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@id/N_crd_4"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>

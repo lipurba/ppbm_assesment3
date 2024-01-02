@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="137dp"
+        android:src="@drawable/gambar1"
+        android:layout_marginTop="40dp"
+        android:id="@+id/A_img_1"
+        android:layout_marginLeft="135dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/A_img_1"
+        android:text="VICTORY SPAREPART"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="100sp"
+        android:id="@+id/A_txt_2"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/A_txt_2"
+        android:visibility="visible"
+        android:background="@color/cream"
+        android:layout_marginTop="20dp"
+        android:id="@+id/A_grs_1"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/about2"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/A_grs_1"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/cream"
+        android:text="ABOUT"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/A_back"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/cream"
+        android:text="BACK"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        />
+
+</RelativeLayout>

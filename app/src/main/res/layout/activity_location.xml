@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location"
+    android:background="@color/orange">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_margin="30dp"
+        android:id="@+id/Loc_img_1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VICTORY"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="120dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/Loc_img_1"
+        android:background="@color/cream"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOCATION OF DEALER"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Jl. Mengger Hilir, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40267"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="@color/cream"
+        android:layout_marginTop="300dp"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/N_crd_1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lokasi"
+            >
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/cream"
+        android:text="BACK"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/Loc_back"
+        />
+
+
+
+</RelativeLayout>

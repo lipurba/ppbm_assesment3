@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="@color/orange">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/circle" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="90dp"
+        android:src="@drawable/gambar4"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="27dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME = ALIF TEGAR H. PURBA"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDUCATION = TELKOM UNIVERSITY"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="125dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAJOR = S1TRM-45-02"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="115dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:id="@+id/P_txt_1"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:visibility="visible"
+        android:layout_below="@id/P_txt_1"
+        android:layout_marginTop="20dp"
+        android:background="@color/cream"
+        android:id="@+id/P_grs_1"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/circle"
+        android:layout_below="@id/P_grs_1"
+        android:id="@+id/P_crcl_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_grs_1"
+        android:text="CAME FROM"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:src="@drawable/gambar5"
+        android:layout_below="@id/P_grs_1"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_crcl_1"
+        android:text="GORONTALO"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="-20sp"
+        android:id="@+id/P_txt_2"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/circle"
+        android:layout_below="@id/P_grs_1"
+        android:id="@+id/P_crcl_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_grs_1"
+        android:text="HOBBY"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="265dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:src="@drawable/futsal"
+        android:layout_below="@id/P_grs_1"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_crcl_1"
+        android:text="SPORT"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:textSize="20dp"
+        android:layout_marginTop="-20sp"
+        android:id="@+id/P_txt_3"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/circle"
+        android:layout_below="@id/P_txt_2"
+        android:id="@+id/P_crcl_3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_txt_2"
+        android:text="NATIONALITY"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="35dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:src="@drawable/indo"
+        android:layout_below="@id/P_txt_2"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_crcl_3"
+        android:text="INDONESIA"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:layout_marginTop="-20sp"
+        android:id="@+id/P_txt_4"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/circle"
+        android:layout_below="@id/P_crcl_2"
+        android:id="@+id/P_crcl_4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_txt_3"
+        android:text="SKILL"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="275dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:src="@drawable/gambar6"
+        android:layout_below="@id/P_crcl_2"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_crcl_4"
+        android:text="DESIGN"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:textSize="20dp"
+        android:layout_marginTop="-20sp"
+        android:id="@+id/P_txt_5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_txt_4"
+        android:text="CONTACT:"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:id="@+id/P_txt_6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_txt_6"
+        android:text="Email : alifpurba46@gmail.com"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"
+        android:id="@+id/P_txt_7"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_txt_7"
+        android:text="Whatsapp : 085163628945"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"
+        android:id="@+id/P_txt_8"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_txt_8"
+        android:text="Instagram : @alifpurba30"
+        android:layout_marginLeft="60sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_txt_5"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/cream"
+        android:text="BACK"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/P_back"
+        tools:ignore="InvalidId" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

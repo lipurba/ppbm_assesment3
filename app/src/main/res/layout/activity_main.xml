@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/orange">
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="181dp"
+        android:layout_height="167dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/gambar1" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_2"
+            android:layout_below="@id/img_1"
+            android:text="HELLO!"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/cream"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:width="300dp"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:id="@+id/btn_1"
+        app:cornerRadius="10dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_1"
+        android:width="300dp"
+        android:text="REGISTER"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/cream"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:id="@+id/btn_2"
+        app:cornerRadius="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".serviceman"
+    android:background="@color/orange">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fotoImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/rossi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fotoImageView"
+            android:text="VALENTINO ROSSI"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:id="@+id/namaTextview"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namaTextview"
+            android:text="COUNTRY :"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="110dp"
+            android:id="@+id/negaraLabelTextview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/negaraLabelTextview"
+            android:text="ITALY"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="70dp"
+            android:id="@+id/negaraTextview"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/negaraTextview"
+            android:text="ID :"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="110dp"
+            android:id="@+id/noIdTextview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noIdTextview"
+            android:text="8652315"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="70dp"
+            android:id="@+id/Idtextview"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
